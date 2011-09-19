@@ -30,6 +30,7 @@ $spec = Gem::Specification.new do |s|
   s.add_dependency("oauth"     , ">= 0.4.1")
   s.add_dependency("json_pure" , ">= 1.4.3")
   s.add_dependency("nokogiri"  , ">= 1.4.2")
+  s.add_dependency("multipart_body")
   # requires libmagic (sudo apt-get install libmagic | port install p5-file-libmagic)
 
   s.add_development_dependency('test-unit', '2.1.0')
