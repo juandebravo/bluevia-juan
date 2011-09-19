@@ -23,7 +23,7 @@ $spec = Gem::Specification.new do |s|
   s.test_files    = FileList["{test}/**/test_*.rb"].to_a
 
   s.has_rdoc      = true
-  s.extra_rdoc_files = ["README", "LICENSE.LGPLv3", "License_Bluevia.txt"]
+  s.extra_rdoc_files = ["UserGuide", "LICENSE.LGPLv3"]
 
   # Dependencies
   s.add_dependency("httpclient", ">= 2.1.5.2")
